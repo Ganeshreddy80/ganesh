@@ -18,7 +18,7 @@ else:
 
     repeat=False
     for j in songs:
-        if songs.count(s)>1:
+        if songs.count(j)>1:
             repeat=True
             break
     if Total_Duration<300:
